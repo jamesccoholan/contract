@@ -11,7 +11,7 @@ const CollectionConfig: CollectionConfigInterface = {
   // Please DO NOT change it manually!
   //yarn deploy --network truffle 
   //yarn verify 0x5c7CB58301ab19469658ffEe222b91910Cde65cD --network truffle
-  contractName: 'Bull',
+  contractName: 'Standard',
   tokenName: 'JC',
   tokenSymbol: 'JC',
   hiddenMetadataUri: 'ipfs://QmfGar4cCFVqvbeM1saoQrNG3fJRjyuLwgGQStfryuCMYf/hidden.json',
