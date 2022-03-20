@@ -11,22 +11,22 @@ const CollectionConfig: CollectionConfigInterface = {
   // Please DO NOT change it manually!
   //yarn deploy --network truffle 
   //yarn verify 0x5c7CB58301ab19469658ffEe222b91910Cde65cD --network truffle
-  contractName: 'Standard',
-  tokenName: 'JC',
-  tokenSymbol: 'JC',
-  hiddenMetadataUri: 'ipfs://QmfGar4cCFVqvbeM1saoQrNG3fJRjyuLwgGQStfryuCMYf/hidden.json',
-  maxSupply: 1000,
+  contractName: 'Test',
+  tokenName: 'Co',
+  tokenSymbol: 'Co',
+  hiddenMetadataUri: 'ipfs://Qmad2442zPGSp3UTEymBbyYNV8bLcWYgeWc7SoAdJwrYUG/hidden.json',
+  maxSupply: 10,
   whitelistSale: {
-    price: 0.01,
-    maxMintAmountPerTx: 5,
+    price: 0.2,
+    maxMintAmountPerTx: 1,
   },
   preSale: {
-    price: 0.01,
-    maxMintAmountPerTx: 2,
+    price: 0.2,
+    maxMintAmountPerTx: 1,
   },
   publicSale: {
-    price: 0.001,
-    maxMintAmountPerTx: 1000,
+    price: 0.0002,
+    maxMintAmountPerTx: 10,
   },
   contractAddress: null,
   marketplaceIdentifier: 'my-nft-token',
